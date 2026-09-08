@@ -119,7 +119,6 @@ The workflow is:
       v
     Python Categorizer
 
-Do not store Gmail passwords or App Passwords in the project.
 
 ## 4. Zammad API Setup
 
@@ -151,7 +150,7 @@ Replace:
 
 with the actual token.
 
-Never commit the real API token to GitHub.
+
 
 ## 6. Find a Zammad Ticket ID
 
@@ -255,9 +254,9 @@ The application:
 
 The application currently supports:
 
-    account
+    hardware
     software
-    technical
+    network
     other
 
 Example software ticket:
@@ -274,7 +273,7 @@ Example technical ticket:
 
 Result:
 
-    technical
+    network
 
 Example account ticket:
 
@@ -303,7 +302,6 @@ Example:
 
 This prevents the same ticket from being processed repeatedly.
 
-The file is excluded from Git.
 
 ## 15. Test Software Ticket
 
@@ -339,7 +337,7 @@ Run:
 
 Expected category:
 
-    technical
+    network
 
 ## 17. Test Account Ticket
 
